@@ -4,7 +4,7 @@ Este es un proyecto base utilizando Java y Spring Boot. Por favor, siga las inst
 
 ## Requisitos
 
-- JAVA 2
+- JAVA 22
 - Maven 3.3.0
 - Git
 
@@ -13,10 +13,6 @@ Este es un proyecto base utilizando Java y Spring Boot. Por favor, siga las inst
 Antes de ejecutar el proyecto, asegúrese de configurar el archivo `application.properties` con los datos adecuados para su entorno. Este archivo se encuentra en la ruta `src/main/resources/application.properties`.
 
 ### Ejemplo de configuración de `application.properties`
-
-```properties
-# Configuración del servidor
-server.port=8080
 
 # Configuración de la base de datos
 spring.application.name=literAlura
