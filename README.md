@@ -15,14 +15,14 @@ Antes de ejecutar el proyecto, asegúrese de configurar el archivo `application.
 ### Ejemplo de configuración de `application.properties`
 
 # Configuración de la base de datos
-spring.application.name=literAlura
-spring.datasource.url=jdbc:mysql://127.0.0.1/literAlura?useSSL=false&serverTimezone=UTC
-spring.datasource.username=root
-spring.datasource.password=
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+- spring.application.name=literAlura
+- spring.datasource.url=jdbc:mysql://127.0.0.1/literAlura?useSSL=false&serverTimezone=UTC
+- spring.datasource.username=root
+- spring.datasource.password=
+- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+- spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
 
 # Configuración de JPA/Hibernate
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.format-sql=true
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
+- spring.jpa.format-sql=true
